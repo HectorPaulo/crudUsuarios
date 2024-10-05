@@ -1,0 +1,11 @@
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.csproj.AssemblyReference.cache
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.FrmAgregarUsuario.resources
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.FrmPrincipal.resources
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.Properties.Resources.resources
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.csproj.GenerateResource.cache
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.csproj.CoreCompileInputs.cache
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\bin\Debug\crudUsuarios.exe.config
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\bin\Debug\crudUsuarios.exe
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\bin\Debug\crudUsuarios.pdb
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.exe
+C:\Users\paulo\OneDrive\Documentos\C#\crudUsuarios\obj\Debug\crudUsuarios.pdb

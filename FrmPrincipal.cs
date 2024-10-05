@@ -26,5 +26,12 @@ namespace crudUsuarios
         {
             Application.Exit();
         }
+
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAgregarUsuario frmAgregarUsuario = new FrmAgregarUsuario();
+            frmAgregarUsuario.Show();
+            this.Hide();
+        }
     }
 }

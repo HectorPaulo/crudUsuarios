@@ -19,10 +19,9 @@ namespace crudUsuarios
 
         private void button1_Click(object sender, EventArgs e)
         {
-                FrmPrincipal principal = new FrmPrincipal();
-                principal.Show();
-                this.Hide();
-            
+            FrmPrincipal principal = new FrmPrincipal();
+            principal.Show();
+            this.Hide();
 
         }
             //private void button2_Click(object sender, EventArgs e)
@@ -56,12 +55,12 @@ namespace crudUsuarios
         private void button2_Click_1(object sender, EventArgs e)
         {
             Usuarios Usuario = new Usuarios();
-            Usuario.Usuario = txtUser.Text.Trim();
-            Usuario.Passwd = txtPass.Text.Trim();
-            Usuario.Estado = cmbEstado.SelectedItem.ToString(); ;
-            Usuario.Tipo_usuario = cmbTipo.SelectedItem.ToString();
+            Usuario.Usuario = textBox1.Text.Trim();
+            Usuario.Passwd = textBox2.Text.Trim();
+            Usuario.Estado = comboBox1.SelectedItem.ToString(); ;
+            Usuario.Tipo_usuario = comboBox2.SelectedItem.ToString();
 
-            int resultado = UsuariosDAO.Agregar(Usuario);
+            int resultado = DAO.Agregar(Usuario);
             if (resultado > 0)
             {
                 MessageBox.Show("Usuario Guardado Con Exito!!", "Usuario Guardado", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -74,10 +73,10 @@ namespace crudUsuarios
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            txtUser.Text = "";
-            txtPass.Text = "";
-            cmbEstado.Text = "";
-            cmbTipo.Text = "";
+            textBox1.Text = "";
+            textBox2.Text = "";
+            comboBox1.Text = "";
+            comboBox2.Text = "";
         }
     }
 }
